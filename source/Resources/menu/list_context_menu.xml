@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- 普通菜单项 -->
+	<item
+        android:id="@+id/context_menu_copy_item"
+        android:title="@string/menu_copy_item" />
+	<item
+        android:id="@+id/context_menu_copy_all"
+        android:title="@string/menu_copy_all" />
+	<item
+        android:id="@+id/context_menu_clear"
+        android:title="@string/menu_clear" />
+
+	<!-- 带有子菜单的排序菜单项 -->
+	<item
+        android:id="@+id/context_menu_sort"
+        android:title="@string/menu_sort_by">
+
+		<menu>
+			<!-- 定义一个group，并设置其单选行为 -->
+			<group
+                android:id="@+id/context_menu_sort_group"
+                android:checkableBehavior="single">
+
+				<!-- 组内的每一个item都是一个单选项 -->
+				<item
+                    android:id="@+id/context_menu_sort_shuffle"
+                    android:title="@string/menu_sort_shuffle"
+                    android:checked="true" />
+
+				<item
+                    android:id="@+id/context_menu_sort_asc"
+                    android:title="@string/menu_sort_asc" />
+
+				<item
+                    android:id="@+id/context_menu_sort_desc"
+                    android:title="@string/menu_sort_desc" />
+			</group>
+		</menu>
+	</item>
+</menu>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 应用名称，将显示在手机桌面和应用顶部 -->
+	<string name="app_name">随机数生成器</string>
+	<!-- 主界面标题 -->
+	<string name="app_title">赐荣随机数生成器</string>
+	<!-- 输入框的标签文本 -->
+	<string name="label_min">最小值</string>
+	<string name="label_max">最大值</string>
+	<string name="label_count">生成数量</string>
+	<!-- 输入框的提示文本 (Hint) -->
+	<string name="hint_min">如: 0</string>
+	<string name="hint_max">如: 100</string>
+	<string name="hint_count">如: 10</string>
+	<!-- 复选框的文本 -->
+	<string name="option_allow_duplicates">允许重复</string>
+
+	<!-- 按钮的文本 -->
+	<string name="button_generate">生成</string>
+	<string name="app_text">Hello, Android!</string>
+
+	<!-- 上下文菜单项的文本 -->
+	<string name="menu_copy_item">复制该项</string>
+	<string name="menu_copy_all">复制全部</string>
+	<string name="menu_clear">清空结果</string>
+
+	<!-- 排序子菜单的父级标题 (占位符) -->
+	<string name="menu_sort_by">排序方式</string>
+	<!-- 排序选项的文本 -->
+	<string name="menu_sort_shuffle">乱序</string>
+	<string name="menu_sort_asc">升序</string>
+	<string name="menu_sort_desc">降序</string>
+
+	<!-- Toast 提示信息 -->
+	<string name="toast_invalid_input">请输入有效的数字。</string>
+	<string name="toast_min_max_error">最大值必须大于最小值。</string>
+	<string name="toast_count_error">生成个数必须在1到100之间。</string>
+	<string name="toast_range_error">不允许重复时，生成个数不能超过数字范围。</string>
+	<string name="toast_copied_item">已复制: %1$d</string>
+	<string name="toast_copied_all">所有结果已复制到剪贴板。</string>
+	<string name="toast_cleared">结果已清空。</string>
+
+	<!-- 状态显示文本 -->
+	<string name="status_empty_list">结果为空，请点击“生成”按钮产生随机数。</string>
+	<string name="status_generation_success">已生成 %1$d 个随机数, 范围为 %2$d-%3$d, %4$s。</string>
+	<string name="status_with_duplicates">可重复</string>
+	<string name="status_without_duplicates">不可重复</string>
+</resources>
